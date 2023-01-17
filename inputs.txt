@@ -1,0 +1,3 @@
+/opt/packages/azure-cli/lib/azure-cli
+/opt/packages/azure-cli/bin
+n

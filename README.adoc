@@ -1,0 +1,6 @@
+= educates-asa-e-image
+
+Custom Image for the Educates platform. It pre-installs the AZ command line and a very simple spring project
+
+Graham has already made https://github.com/vmware-tanzu-labs/educates-extension-packages/tree/main/packages/azure-cli[an image]
+that download and installs the az command line
