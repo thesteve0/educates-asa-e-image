@@ -4,3 +4,9 @@ Custom Image for the Educates platform. It pre-installs the AZ command line and 
 
 Graham has already made https://github.com/vmware-tanzu-labs/educates-extension-packages/tree/main/packages/azure-cli[an image]
 that download and installs the az command line
+
+This images builds with a working 'az' in it.
+Next steps
+1. figure out the github action to build and push the action to the repo
+2. change the line in my lab to pull that image
+3. run it and see if we can get 'az' to work

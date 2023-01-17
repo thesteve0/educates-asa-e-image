@@ -6,4 +6,8 @@ COPY . /src
 
 WORKDIR /src
 
+USER root
+
 RUN ./build.sh
+
+USER 1001
