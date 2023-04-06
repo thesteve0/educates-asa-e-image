@@ -13,4 +13,6 @@ sed -i "s%/dev/tty%$SCRIPT_DIR/inputs.txt%" install.sh
 
 sh install.sh
 
+/opt/packages/azure-cli/bin/az extension add --name spring -y
+
 cp -rp $SCRIPT_DIR/profile.d /opt/packages/azure-cli/profile.d
